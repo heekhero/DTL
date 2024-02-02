@@ -12,14 +12,14 @@ This repo is the official implementation of our AAAI2024 paper "DTL: Disentangle
     LAMDA, Nanjing University
 </div>
 
-<img src="./figs/network.png" width = "300" height = "200" align=center />
+![](figs/network.png)
 
 
 <h3>TL;DR</h3>
     
 Different from current efficient tuning methods [Adapter](https://arxiv.org/abs/1902.00751), [LoRA](https://arxiv.org/abs/2106.09685) and [VPT](https://arxiv.org/abs/2203.12119) that closely entangle the small trainable modules with the huge frozen backbone. We **disentangle** the weights update from the backbone network using a lightweight Compact Side Network (CSN). DTL not only **greatly reduces GPU memory footage**, but also achieves high accuracy in knowledge transfer.
 
-<img src="./figs/comparison.png" width = "300" height = "200" align=center />
+![](figs/comparison.png)
 
 ---
 
