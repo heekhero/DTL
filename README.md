@@ -1,13 +1,15 @@
-<div align=center>
-  <img src="imgs/DTL_illustration.png" width="500px" />
-</div>
-
 # Disentangled Transfer Learning (DTL)
 
 Implementation of **DTL**, a parameter-efficient paradigm that disentangles trainable parameters from a backbone model via a Compact Side Network (CSN). This repository supports both image classification and object detection tasks.
 
 ---
 
+## 📖 Paper
+
+> **Minghao Fu**, Ke Zhu, Jianxin Wu  
+> **DTL: Disentangled Transfer Learning for Visual Recognition**, [arxiv](https://arxiv.org/abs/2312.07856) • [AAAI Paper](https://dl.acm.org/doi/10.1609/aaai.v38i11.29096)
+
+---
 
 ## 🚀 Features
 
@@ -25,3 +27,16 @@ Implementation of **DTL**, a parameter-efficient paradigm that disentangles trai
 - **Classification:** see `classification/README.md` for training and evaluation steps.  
 - **Detection:** see `detection/README.md` for COCO training and evaluation instructions.
 
+## 🎓 Citation
+
+If you use DTL in your work, please cite:
+
+```bibtex
+@inproceedings{10.1609/aaai.v38i11.29096,
+author = {Fu, Minghao and Zhu, Ke and Wu, Jianxin},
+title = {{DTL}: disentangled transfer learning for visual recognition},
+year = {2024},
+booktitle = {Proceedings of the Thirty-Eighth AAAI Conference on Artificial Intelligence},
+pages={12082 - 12090}
+}
+```

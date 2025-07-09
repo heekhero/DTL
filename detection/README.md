@@ -80,6 +80,14 @@ tar -xvf VOCtrainval_11-May-2012.tar
 ```
 
 * After extraction, ensure your config’s `data_root` (in `dtl_configs/_base_/voc0712.py`) points to `data/VOCdevkit`.
+
+### Pretrained Models
+
+| name | pretrain | resolution | #params | FLOPs | FPS| 22K model |
+| :---: | :---: | :---: | :---: | :---: | :---: |:---: |
+| Swin-B | ImageNet-22K | 224x224 |  88M | 15.4G | 278 | [github](https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_base_patch4_window7_224_22k.pth)/[baidu](https://pan.baidu.com/s/1y1Ec3UlrKSI8IMtEs-oBXA)/[config](configs/swin/swin_base_patch4_window7_224_22k.yaml) | 
+| Swin-L | ImageNet-22K | 224x224 | 197M | 34.5G | 141 | [github](https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_large_patch4_window7_224_22k.pth)/[baidu](https://pan.baidu.com/s/1pws3rOTFuOebBYP3h6Kx8w)/[config](configs/swin/swin_large_patch4_window7_224_22k.yaml) | 
+
 * Set `load_from` to the path of your pre-trained weights.
 
 

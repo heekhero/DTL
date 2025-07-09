@@ -8,7 +8,7 @@ _base_ = ["../_base_/datasets/voc0712.py", "../_base_/default_runtime.py"]
 #     '../_base_/default_runtime.py'
 # ]
 
-load_from = "/opt/fumh/PETL/MONA/pretrained_models/swin_large_patch4_window7_224_22k.pth"
+load_from = "/path/to/your/swin_large_patch4_window7_224_22k.pth"
 
 # model settings
 model = dict(
