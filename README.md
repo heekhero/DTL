@@ -32,7 +32,7 @@ Implementation of **DTL**, a parameter-efficient paradigm that disentangles trai
 If you use DTL in your work, please cite:
 
 ```bibtex
-@inproceedings{10.1609/aaai.v38i11.29096,
+@inproceedings{fu_dtl2024,
 author = {Fu, Minghao and Zhu, Ke and Wu, Jianxin},
 title = {{DTL}: disentangled transfer learning for visual recognition},
 year = {2024},
