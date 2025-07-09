@@ -595,7 +595,7 @@ def parse_block_info(b_info):
     bb = list(map(str, range(int(bb_start), int(bb_end) + 1)))
     return bb
 
-# @BACKBONES.register_module()
+@BACKBONES.register_module()
 class SwinTransformer_dtlv2_ls(nn.Module):
     """ Swin Transformer backbone.
         A PyTorch impl of : `Swin Transformer: Hierarchical Vision Transformer using Shifted Windows`  -

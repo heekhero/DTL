@@ -813,10 +813,3 @@ class SwinTransformer_dtlv2(nn.Module):
         """Convert the model into training mode while keep layers freezed."""
         super(SwinTransformer_dtlv2, self).train(mode)
         self._freeze_stages()
-
-if __name__ == '__main__':
-    layer = SwinTransformer_dtlv5()
-    x = torch.randn(size=[2, 3, 800, 1200])
-    y = layer(x)
-
-    print(len(y))

@@ -1,8 +1,5 @@
 dataset_type = 'CocoDataset'
-# data_root = '/opt/Dataset/COCO2017/' #V100
-# data_root = '/opt/Dataset/COCO2017/' #3091
-# data_root = '/opt/Dataset/coco/' #3092
-data_root = '/opt/Dataset/coco/' #2080ti
+data_root = '/opt/Dataset/coco/'
 img_norm_cfg = dict(
     mean=[123.675, 116.28, 103.53], std=[58.395, 57.12, 57.375], to_rgb=True)
 train_pipeline = [

@@ -693,7 +693,6 @@ class SwinTransformer_dtlv1(nn.Module):
 
     def forward(self, x):
 
-        print(x.size())
         """Forward function."""
         x = self.patch_embed(x)
 

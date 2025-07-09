@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 CONFIG=$1
+GPUS=$2
 
 random_port=$((RANDOM % 65535 + 1024))
 
@@ -10,5 +11,5 @@ while [[ "$(netstat -tuln | grep -w "$random_port")" != "" ]]; do
 done
 
 PYTHONPATH="$(dirname $0)/..":$PYTHONPATH \
-python -m torch.distributed.launch --nproc_per_node=4 --master_port=$random_port \
+python -m torch.distributed.launch --nproc_per_node=$GPUS --master_port=$random_port \
     $(dirname "$0")/train.py $CONFIG --launcher pytorch ${@:3}
