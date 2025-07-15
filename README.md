@@ -17,7 +17,7 @@ Implementation of **DTL**, a parameter-efficient paradigm that disentangles trai
 - **Parameter-efficient**: only a small fraction of parameters (LoRA-style) is fine-tuned.  
 - **Accurate**: achieves state-of-the-art performance on ImageNet, VTAB, and COCO benchmarks.  
 - **Versatile**: easy extension to image classification and object detection frameworks.  
-- **Seamless**: integrates with PyTorch and Detectron2 pipelines.
+- **Seamless**: integrates with PyTorch and MMDetection pipelines.
 
 
 ---
